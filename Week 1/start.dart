@@ -1,4 +1,7 @@
   // no needed arguments
 void main(List<String> args) {
-  print('Hello my first project');
+  String name = "Emre's balance: ";
+  int money = 100;
+
+  print(name + " " + money.toString());
 }
