@@ -22,3 +22,9 @@ class User2 {
     userCode = (city ?? 'Istanbul') + name;
   }
 }
+
+extension User2ControlExtension on User2 {
+  void controlName() {
+    print(name);
+  }
+}
